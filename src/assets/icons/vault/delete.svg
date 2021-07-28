@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 42 42">
+    <defs>
+        <filter id="prefix__Rectangle_845" width="42" height="42" x="0" y="0" filterUnits="userSpaceOnUse">
+            <feOffset dy="1"/>
+            <feGaussianBlur result="blur" stdDeviation="2"/>
+            <feFlood flood-color="#2585d3" flood-opacity=".2"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <style>
+            .prefix__cls-3{fill:#747891;stroke:#747891;stroke-linecap:round;stroke-linejoin:round;stroke-width:.2px}
+        </style>
+    </defs>
+    <g id="prefix__delete" transform="translate(-499 -233)">
+        <g transform="translate(499 233)">
+            <g id="prefix__Rectangle_845-2" data-name="Rectangle 845" transform="translate(6 5)" style="fill:#fff;stroke:#2585d3;opacity:0">
+                <rect width="30" height="30" rx="6" style="stroke:none"/>
+                <rect width="29" height="29" x=".5" y=".5" rx="5.5" style="fill:none"/>
+            </g>
+        </g>
+        <g id="prefix__delete-2" data-name="delete" transform="translate(500.503 234.504)">
+            <path id="prefix__Path_1719" d="M22.1 26.3a2.852 2.852 0 0 0 2.9-2.72l.331-9.955h1.552a.4.4 0 1 0 0-.806h-4.344v-.907a1.639 1.639 0 0 0-1.656-1.612h-3.146a1.639 1.639 0 0 0-1.656 1.612v.907h-4.367a.4.4 0 1 0 0 .806h1.552l.334 9.955a2.852 2.852 0 0 0 2.9 2.72zm-5.2-14.388a.82.82 0 0 1 .828-.806h3.146a.82.82 0 0 1 .828.806v.907h-4.8zm-2.454 11.627l-.331-9.939h10.411l-.352 9.935a2.052 2.052 0 0 1-2.07 1.955h-5.588a2.039 2.039 0 0 1-2.07-1.951z" data-name="Path 1719" style="stroke-width:.5px;fill:#747891;stroke:#747891;stroke-linecap:round;stroke-linejoin:round"/>
+            <path id="prefix__Path_1721" d="M36.593 46.932a.543.543 0 0 0 .593-.468v-7a.609.609 0 0 0-1.185 0v7a.543.543 0 0 0 .592.468z" class="prefix__cls-3" data-name="Path 1721" transform="translate(-18.9 -23.781)"/>
+            <path id="prefix__Path_1722" d="M60.593 46.932a.543.543 0 0 0 .593-.468v-7a.609.609 0 0 0-1.185 0v7a.543.543 0 0 0 .592.468z" class="prefix__cls-3" data-name="Path 1722" transform="translate(-39.665 -23.781)"/>
+        </g>
+    </g>
+</svg>

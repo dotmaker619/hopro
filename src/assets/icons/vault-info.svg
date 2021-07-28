@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <style>
+            .prefix__cls-1{fill:#5b607e}
+        </style>
+    </defs>
+    <g id="prefix__Group_1289" data-name="Group 1289" transform="translate(-568 -375)">
+        <g id="prefix__info" transform="translate(564 371)">
+            <g id="prefix__Group_1290" data-name="Group 1290" transform="translate(4 4)">
+                <path id="prefix__Path_2020" d="M14 24a10 10 0 1 1 10-10 10 10 0 0 1-10 10zm0-18.182A8.182 8.182 0 1 0 22.182 14 8.177 8.177 0 0 0 14 5.818z" class="prefix__cls-1" data-name="Path 2020" transform="translate(-4 -4)"/>
+            </g>
+            <g id="prefix__Group_1293" data-name="Group 1293" transform="translate(12.996 9.609)">
+                <g id="prefix__Group_1291" data-name="Group 1291" transform="translate(.201 2.811)">
+                    <path id="prefix__Path_2021" d="M44.8 46.225a.806.806 0 0 1-.8-.8V40.8a.8.8 0 0 1 1.606 0v4.619a.806.806 0 0 1-.806.806z" class="prefix__cls-1" data-name="Path 2021" transform="translate(-44 -40)"/>
+                </g>
+                <g id="prefix__Group_1292" data-name="Group 1292">
+                    <ellipse id="prefix__Ellipse_413" cx="1" cy=".5" class="prefix__cls-1" data-name="Ellipse 413" rx="1" ry=".5" transform="translate(.004 .418)"/>
+                    <path id="prefix__Path_2022" d="M44 28.008a1 1 0 1 1 1-1 .994.994 0 0 1-1 1zm0-1.608a.6.6 0 1 0 .6.6.592.592 0 0 0-.6-.6z" class="prefix__cls-1" data-name="Path 2022" transform="translate(-43 -26)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

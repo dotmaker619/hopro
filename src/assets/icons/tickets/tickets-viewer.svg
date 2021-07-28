@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21.339" height="20.001" viewBox="0 0 21.339 20.001">
+    <defs>
+        <style>
+            .cls-1{fill:#171e48}.cls-3{fill:#fff}
+        </style>
+    </defs>
+    <g id="tickets" transform="rotate(90 -21645.33 1042.67)">
+        <path id="Rectangle_1045" d="M1.818 0h16.364A1.818 1.818 0 0 1 20 1.818v1.818H0V1.818A1.818 1.818 0 0 1 1.818 0z" class="cls-1" transform="translate(-22688 -20621.27)"/>
+        <g id="Rectangle_1046" fill="#fff" stroke="none">
+            <path d="M18.182 14.046H1.818c-.727 0-1.318-.591-1.318-1.318V.5h19v12.228c0 .727-.59 1.318-1.318 1.318z" transform="translate(-22688 -20617.207)"/>
+            <path fill="#171e48" d="M1 1v11.728c0 .45.367.818.818.818h16.364c.452 0 .819-.367.819-.818V1H1M0 0h20v12.728c0 1.004-.813 1.818-1.818 1.818H1.818C.814 14.546 0 13.732 0 12.728V0z" transform="translate(-22688 -20617.207)"/>
+        </g>
+        <rect id="Rectangle_1047" width="9.091" height="9.091" class="cls-3" rx="1" transform="translate(-22682.547 -20614.453)"/>
+        <rect id="Rectangle_1060" width="3.636" height="2.727" class="cls-3" rx="1.364" transform="translate(-22685.27 -20620.363)"/>
+        <rect id="Rectangle_1061" width="3.636" height="2.727" class="cls-3" rx="1.364" transform="translate(-22674.363 -20620.363)"/>
+        <g id="Group_2163" transform="translate(-22684.363 -20624)">
+            <rect id="Rectangle_1058" width="1.818" height="5.455" class="cls-1" rx=".909"/>
+            <rect id="Rectangle_1059" width="1.818" height="5.455" class="cls-1" rx=".909" transform="translate(10.909)"/>
+        </g>
+        <path id="Path_2906" d="M.268 4.222a.873.873 0 0 1 1.216-1.251l1.339 1.3L6.378.281a.874.874 0 1 1 1.3 1.166L3.5 6.136a.873.873 0 0 1-1.234.017z" class="cls-1" transform="translate(-22682.023 -20613.768)"/>
+    </g>
+</svg>

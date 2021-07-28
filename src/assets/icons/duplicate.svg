@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18.3" height="18.3" viewBox="0 0 18.3 18.3">
+    <defs>
+        <style>
+            .cls-1{fill:#5b607e;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:.3px;fill-rule:evenodd}
+        </style>
+    </defs>
+    <g id="duplicate" transform="translate(-5.85 -5.85)">
+        <g id="Group_947" data-name="Group 947" transform="translate(6 6)">
+            <path id="Path_1824" d="M14.08 7.636h8.284v9.818h-1.637v1.636h1.636A1.638 1.638 0 0 0 24 17.455V7.636A1.638 1.638 0 0 0 22.364 6h-9.819a1.638 1.638 0 0 0-1.636 1.636v1.637h1.636V7.636zM6 12.547a1.637 1.637 0 0 1 1.638-1.638h9.815a1.637 1.637 0 0 1 1.638 1.638v9.815A1.637 1.637 0 0 1 17.453 24H7.638A1.637 1.637 0 0 1 6 22.362v-9.815zm1.636 0h9.818v9.818H7.636v-9.82z" class="cls-1" data-name="Path 1824" transform="translate(-6 -6)"/>
+        </g>
+    </g>
+</svg>

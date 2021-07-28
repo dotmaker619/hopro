@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+    <defs>
+        <filter id="prefix__Rectangle_982" width="60" height="60" x="0" y="0" filterUnits="userSpaceOnUse">
+            <feOffset dy="5"/>
+            <feGaussianBlur result="blur" stdDeviation="5"/>
+            <feFlood flood-opacity=".302"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <style>
+            .prefix__cls-1{fill:#fff}
+        </style>
+    </defs>
+    <g id="prefix__cluster" transform="translate(18.818 22.182)">
+        <g filter="url(#prefix__Rectangle_982)" transform="translate(-18.82 -22.18)">
+            <path id="prefix__Rectangle_982-2" d="M4 0h26v30H4a4 4 0 0 1-4-4V4a4 4 0 0 1 4-4z" class="prefix__cls-1" data-name="Rectangle 982" transform="translate(15 10)"/>
+        </g>
+        <g id="prefix__Group_2305" data-name="Group 2305" transform="translate(2.182 -6.182)">
+            <circle id="prefix__Ellipse_416" cx="9" cy="9" r="9" fill="#737790" data-name="Ellipse 416" opacity="0.7"/>
+            <circle id="prefix__Ellipse_417" cx="6.864" cy="6.864" r="6.864" class="prefix__cls-1" data-name="Ellipse 417" transform="translate(2.136 2.136)"/>
+            <rect id="prefix__Rectangle_901" width="5.485" height="5.485" fill="#737790" data-name="Rectangle 901" rx="1" transform="translate(6.258 6.258)"/>
+        </g>
+    </g>
+</svg>

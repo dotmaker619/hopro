@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="124.352" height="127.797" viewBox="0 0 124.352 127.797">
+    <defs>
+        <filter id="prefix__Path_1765" width="94.226" height="94.226" x="13.794" y="23.546" filterUnits="userSpaceOnUse">
+            <feOffset dy="3"/>
+            <feGaussianBlur result="blur" stdDeviation="3"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <style>
+            .prefix__cls-3,.prefix__cls-6{fill:none}.prefix__cls-3{stroke:#b4b4c5;stroke-linecap:round;stroke-linejoin:round;stroke-width:4px}.prefix__cls-5{stroke:none}
+        </style>
+    </defs>
+    <g id="prefix__terra-illustration" transform="translate(15.02 -421)">
+        <path id="prefix__Path_2409" d="M99.176-192.2c34.339 0 62.176-28.146 62.176-62.865s-28.146-51.223-62.176-62.865S37-289.787 37-255.068 64.837-192.2 99.176-192.2z" data-name="Path 2409" transform="translate(-52.02 741)" style="fill:#87a1f7;opacity:.1"/>
+        <g id="prefix__Group_971" data-name="Group 971" transform="translate(7.775 450.546)">
+            <g id="prefix__Group_965" data-name="Group 965">
+                <g transform="translate(-22.79 -29.55)">
+                    <path id="prefix__Path_1765-2" d="M3069.1 712.27h-57.561a9.345 9.345 0 0 0-9.331 9.333v57.56a9.348 9.348 0 0 0 9.333 9.333h57.56a9.329 9.329 0 0 0 9.333-9.333V721.6a9.345 9.345 0 0 0-9.332-9.333z" data-name="Path 1765" transform="translate(-2979.42 -682.72)" style="fill:#fff"/>
+                </g>
+                <g id="prefix__Group_970" data-name="Group 970" transform="translate(10.769 10.997)">
+                    <g id="prefix__Group_964" data-name="Group 964">
+                        <g id="prefix__Rectangle_779" class="prefix__cls-3" data-name="Rectangle 779">
+                            <rect width="16.767" height="54.912" class="prefix__cls-5" rx=".5"/>
+                            <rect width="12.767" height="50.912" x="2" y="2" class="prefix__cls-6" rx="1.5"/>
+                        </g>
+                        <g id="prefix__Rectangle_780" class="prefix__cls-3" data-name="Rectangle 780" transform="translate(21.377)">
+                            <rect width="33.535" height="16.767" class="prefix__cls-5" rx=".5"/>
+                            <rect width="29.535" height="12.767" x="2" y="2" class="prefix__cls-6" rx="1.5"/>
+                        </g>
+                        <g id="prefix__Rectangle_781" data-name="Rectangle 781" transform="translate(21.377 21.377)" style="stroke:#87a1f7;stroke-linecap:round;stroke-linejoin:round;stroke-width:4px;fill:none">
+                            <rect width="33.535" height="33.535" class="prefix__cls-5" rx=".5"/>
+                            <rect width="29.535" height="29.535" x="2" y="2" class="prefix__cls-6" rx="1.5"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

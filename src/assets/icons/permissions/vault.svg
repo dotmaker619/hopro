@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+    <defs>
+        <style>
+            .cls-1{fill:#c553e0}.cls-2{fill:#fff}.cls-3{fill:none;stroke:#fff}
+        </style>
+    </defs>
+    <g id="Group_974" data-name="Group 974" transform="translate(-548 -646)">
+        <g id="Group_788" data-name="Group 788" transform="translate(538 641)">
+            <circle id="Ellipse_354" cx="15" cy="15" r="15" class="cls-1" data-name="Ellipse 354" transform="translate(10 5)"/>
+        </g>
+        <g id="Group_968" data-name="Group 968" transform="translate(0 -.002)">
+            <g id="folder" transform="translate(556 655.002)">
+                <g id="Group_966" data-name="Group 966">
+                    <path id="Path_1772" d="M13.454 42.278H7.345l-.926-1.963A.547.547 0 0 0 5.925 40H.546a.551.551 0 0 0-.546.555v10.892A.551.551 0 0 0 .546 52h12.908a.551.551 0 0 0 .546-.553v-8.613a.551.551 0 0 0-.546-.556zm-12.36-1.167h4.49l.549 1.167H1.09zm11.813 9.78H1.094v-7.5h11.813z" class="cls-2" data-name="Path 1772" transform="translate(0 -40.002)"/>
+                </g>
+            </g>
+            <path id="Line_15" d="M0 0h8.396" class="cls-3" data-name="Line 15" transform="translate(558.5 660.751)"/>
+            <path id="Line_16" d="M0 0h4" class="cls-3" data-name="Line 16" transform="translate(558.603 663.888)"/>
+        </g>
+    </g>
+</svg>

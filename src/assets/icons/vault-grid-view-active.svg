@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="59" height="59" viewBox="0 0 59 59">
+    <defs>
+        <filter id="prefix__Rectangle_676" width="59" height="59" x="0" y="0" filterUnits="userSpaceOnUse">
+            <feOffset dy="2"/>
+            <feGaussianBlur result="blur" stdDeviation="2.5"/>
+            <feFlood flood-opacity=".102"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <style>
+            .prefix__cls-2{fill:#fff}
+        </style>
+    </defs>
+    <g id="prefix__Group_1217" data-name="Group 1217" transform="translate(-548.5 -357.5)">
+        <g transform="translate(548.5 357.5)">
+            <rect id="prefix__Rectangle_676-2" width="44" height="44" data-name="Rectangle 676" rx="6" transform="translate(7.5 5.5)" style="fill:#2585d3"/>
+        </g>
+        <g id="prefix__grid-view" transform="translate(547 354)">
+            <g id="prefix__Group_1284" data-name="Group 1284" transform="translate(31.964 22)">
+                <path id="prefix__Path_2010" d="M56.7 30.036h-5.361A1.343 1.343 0 0150 28.7v-5.361A1.343 1.343 0 0151.339 22H56.7a1.343 1.343 0 011.339 1.339V28.7a1.343 1.343 0 01-1.339 1.336zm-5.357-6.7V28.7H56.7v-5.361z" class="prefix__cls-2" data-name="Path 2010" transform="translate(-50 -22)"/>
+            </g>
+            <g id="prefix__Group_1285" data-name="Group 1285" transform="translate(31.964 31.964)">
+                <path id="prefix__Path_2011" d="M56.7 58.036h-5.361A1.343 1.343 0 0150 56.7v-5.361A1.343 1.343 0 0151.339 50H56.7a1.343 1.343 0 011.339 1.339V56.7a1.343 1.343 0 01-1.339 1.336zm-5.357-6.7V56.7H56.7v-5.361z" class="prefix__cls-2" data-name="Path 2011" transform="translate(-50 -50)"/>
+            </g>
+            <g id="prefix__Group_1286" data-name="Group 1286" transform="translate(22 22)">
+                <path id="prefix__Path_2012" d="M28.7 30.036h-5.361A1.343 1.343 0 0122 28.7v-5.361A1.343 1.343 0 0123.339 22H28.7a1.343 1.343 0 011.339 1.339V28.7a1.343 1.343 0 01-1.339 1.336zm-5.357-6.7V28.7H28.7v-5.361z" class="prefix__cls-2" data-name="Path 2012" transform="translate(-22 -22)"/>
+            </g>
+            <g id="prefix__Group_1287" data-name="Group 1287" transform="translate(22 31.964)">
+                <path id="prefix__Path_2013" d="M28.7 58.036h-5.361A1.343 1.343 0 0122 56.7v-5.361A1.343 1.343 0 0123.339 50H28.7a1.343 1.343 0 011.339 1.339V56.7a1.343 1.343 0 01-1.339 1.336zm-5.357-6.7V56.7H28.7v-5.361z" class="prefix__cls-2" data-name="Path 2013" transform="translate(-22 -50)"/>
+            </g>
+        </g>
+    </g>
+</svg>

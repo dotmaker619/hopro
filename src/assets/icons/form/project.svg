@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+    <defs>
+        <style>
+            .cls-1{fill:#eaefff}.cls-2,.cls-4{fill:none}.cls-2{stroke:#2585d3;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px}.cls-3{stroke:none}
+        </style>
+    </defs>
+    <g id="Group_684" data-name="Group 684" transform="translate(-150.959 -126.959)">
+        <path id="Path_1695" d="M50 0A50 50 0 1 1 0 50 50 50 0 0 1 50 0z" class="cls-1" data-name="Path 1695" transform="translate(150.959 126.959)"/>
+        <g id="Group_1011" data-name="Group 1011" transform="translate(-91.539 -266.851)">
+            <g id="Rectangle_785" class="cls-2" data-name="Rectangle 785" transform="translate(274.498 423.81)">
+                <rect width="36" height="40" class="cls-3" rx="2.34"/>
+                <rect width="38" height="42" x="-1" y="-1" class="cls-4" rx="3.34"/>
+            </g>
+            <g id="Rectangle_786" class="cls-2" data-name="Rectangle 786">
+                <path d="M0 0h8.295v6.828H0z" class="cls-3" transform="translate(279.478 429.257)"/>
+                <path d="M1 1h6.295v4.828H1z" class="cls-4" transform="translate(279.478 429.257)"/>
+            </g>
+            <path id="Line_6" d="M0 0h12.872" class="cls-2" data-name="Line 6" transform="translate(292.739 432.129)"/>
+            <g id="Rectangle_787" class="cls-2" data-name="Rectangle 787">
+                <path d="M0 0h8.295v6.828H0z" class="cls-3" transform="translate(279.478 440.4)"/>
+                <path d="M1 1h6.295v4.828H1z" class="cls-4" transform="translate(279.478 440.4)"/>
+            </g>
+            <path id="Line_7" d="M0 0h12.872" class="cls-2" data-name="Line 7" transform="translate(292.739 443.402)"/>
+            <g id="Rectangle_788" class="cls-2" data-name="Rectangle 788">
+                <path d="M0 0h8.295v6.828H0z" class="cls-3" transform="translate(279.478 451.534)"/>
+                <path d="M1 1h6.295v4.828H1z" class="cls-4" transform="translate(279.478 451.534)"/>
+            </g>
+            <path id="Line_8" d="M0 0h12.872" class="cls-2" data-name="Line 8" transform="translate(292.739 454.683)"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+    <defs>
+        <style>
+            .cls-1{fill:#ff3d82}.cls-2{fill:#fff}
+        </style>
+    </defs>
+    <g id="Group_971" data-name="Group 971" transform="translate(-548 -400)">
+        <g id="Group_788" data-name="Group 788" transform="translate(538 395)">
+            <circle id="Ellipse_354" cx="15" cy="15" r="15" class="cls-1" data-name="Ellipse 354" transform="translate(10 5)"/>
+        </g>
+        <g id="Group_965" data-name="Group 965" transform="translate(-2447.21 -305.27)">
+            <path id="Path_1764" d="M3042.948 815.727l-2.114-5.106a.193.193 0 0 0-.357 0l-2.1 5.09a.193.193 0 0 0 .269.244l1.946-1.027 2.088 1.044a.193.193 0 0 0 .268-.245z" class="cls-2" data-name="Path 1764" transform="translate(-33.401 -90.732)"/>
+            <path id="Rectangle_786" d="M0 0h.886v.6H0z" class="cls-2" data-name="Rectangle 786" transform="rotate(-45.003 2373.933 -3280.597)"/>
+            <path id="Rectangle_787" d="M0 0h.886v.6H0z" class="cls-2" data-name="Rectangle 787" transform="rotate(-44.997 2368.066 -3278.639)"/>
+            <path id="Rectangle_788" d="M0 0h.886v.6H0z" class="cls-2" data-name="Rectangle 788" transform="rotate(-44.997 2375.535 -3281.727)"/>
+            <path id="Rectangle_789" d="M0 0h.886v.6H0z" class="cls-2" data-name="Rectangle 789" transform="rotate(-45.003 2372.427 -3279.929)"/>
+            <path id="Rectangle_790" d="M0 0h.886v.6H0z" class="cls-2" data-name="Rectangle 790" transform="rotate(-44.997 2369.527 -3279.264)"/>
+            <path id="Rectangle_791" d="M0 0h.886v.6H0z" class="cls-2" data-name="Rectangle 791" transform="rotate(-44.997 2371.072 -3279.853)"/>
+            <path id="Path_1765" d="M3016.252 712.27h-12.082a1.962 1.962 0 0 0-1.959 1.959v12.082a1.963 1.963 0 0 0 1.959 1.959h12.082a1.958 1.958 0 0 0 1.959-1.959v-12.082a1.961 1.961 0 0 0-1.959-1.959zm-6.424.905l-2.657 2.657-2.657-2.657zm-6.712 1.054a1.051 1.051 0 0 1 .368-.8l3.045 3.045-3.413 3.413zm1.053 13.136a1.055 1.055 0 0 1-1.053-1.054v-5.143l4.053-4.053 5.729 5.729-4.522 4.521zm12.082 0h-6.592l3.883-3.883 3.512 3.512a1.052 1.052 0 0 1-.8.372zm-2.073-4.521l3.061-3.061.066.066v6.12zm-.641-.641l-5.728-5.728 3.061-3.061.409.409.641-.641-.011-.011h4.341a1.055 1.055 0 0 1 1.054 1.054v4.207z" class="cls-2" data-name="Path 1765"/>
+        </g>
+    </g>
+</svg>

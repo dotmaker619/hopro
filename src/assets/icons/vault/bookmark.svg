@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 42 42">
+    <defs>
+        <filter id="prefix__Rectangle_843" width="42" height="42" x="0" y="0" filterUnits="userSpaceOnUse">
+            <feOffset dy="1"/>
+            <feGaussianBlur result="blur" stdDeviation="2"/>
+            <feFlood flood-color="#2585d3" flood-opacity=".2"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g id="prefix__bookmark" transform="translate(-425 -233)">
+        <g transform="translate(425 233)">
+            <g id="prefix__Rectangle_843-2" data-name="Rectangle 843" transform="translate(6 5)" style="fill:#fff;stroke:#2585d3;opacity:0">
+                <rect width="30" height="30" rx="6" style="stroke:none"/>
+                <rect width="29" height="29" x=".5" y=".5" rx="5.5" style="fill:none"/>
+            </g>
+        </g>
+        <g id="prefix__Group_1554" data-name="Group 1554" transform="translate(.803 .803)">
+            <path id="prefix__Path_2112" d="M30.462 988.379a.746.746 0 0 0 .567-.285.819.819 0 0 0 .165-.635l-.756-4.792 3.306-3.421a.818.818 0 0 0 .187-.808.768.768 0 0 0-.606-.538l-4.593-.735-2.084-4.341a.743.743 0 0 0-1.358 0l-2.084 4.341-4.593.735a.768.768 0 0 0-.606.538.818.818 0 0 0 .187.808l3.306 3.421-.756 4.792a.809.809 0 0 0 .3.773.73.73 0 0 0 .8.061l4.127-2.235 4.127 2.235a.731.731 0 0 0 .364.086zm-1.01-2.217l-3.135-1.7a.729.729 0 0 0-.7 0l-3.135 1.7.573-3.649a.815.815 0 0 0-.213-.692l-2.515-2.594 3.489-.556a.76.76 0 0 0 .567-.426l1.582-3.3 1.582 3.3a.76.76 0 0 0 .567.426l3.489.556-2.515 2.594a.815.815 0 0 0-.213.692l.573 3.649z" data-name="Path 2112" transform="translate(419.031 -728.383)" style="fill:#747891"/>
+        </g>
+    </g>
+</svg>

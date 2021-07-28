@@ -1,0 +1,97 @@
+.sh-metric-card {
+  min-width: 19.5rem;
+  max-width: 20rem;
+  display: flex;
+  align-items: center;
+  height: 9rem;
+  width: 19.5rem;
+  padding: 2rem;
+  border-radius: 1.5rem;
+  background-color: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.1);
+
+  &__icon {
+    width: 4rem;
+    height: 4rem;
+    margin-right: 1rem;
+  }
+
+  &__title {
+    opacity: 0.5;
+    font-family: Barlow-Medium;
+    font-size: 1.4rem;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.7rem;
+    letter-spacing: normal;
+    text-align: left;
+    color: #171e48;
+    margin-bottom: 0.3rem;
+  }
+
+  &__count {
+    font-family: Barlow-SemiBold;
+    font-size: 2.4rem;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.9rem;
+    letter-spacing: normal;
+    text-align: left;
+    color: #171e48;
+  }
+}
+
+// All listing components
+
+.sh-list-header {
+  margin-bottom: 0 !important;
+  padding: 0 4rem;
+  background-color: $white;
+  color: $list-header-text;
+  height: 5rem;
+  align-items: center;
+}
+
+.sh-list {
+  border: 1px solid #eee;
+  background-color: $white;
+
+  margin-bottom: 0.1rem;
+  border-radius: 0;
+  // min-height: 7rem;
+  padding: 0;
+
+  &:hover {
+    box-shadow: 5px 5px 10px 0px #dedeec;
+  }
+
+  &__item {
+    border-bottom: 1px solid #eee;
+    padding: 1.5rem 4rem;
+    &--icon {
+      align-self: center;
+      visibility: hidden;
+
+      &.is-visible {
+        align-self: center;
+        visibility: visible;
+      }
+    }
+    &:hover {
+      background-color: #f8fafe;
+      &--icon {
+        align-self: center;
+        visibility: visible;
+      }
+      .name-highlights-on-hover {
+        color: $primary !important;
+      }
+      .sh-list__item--icon {
+        visibility: visible;
+      }
+    }
+  }
+}

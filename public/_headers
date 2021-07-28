@@ -1,0 +1,5 @@
+/*
+  Content-Security-Policy: frame-ancestors 'self' *.sensehawk.com
+  X-Xss-Protection: 1; mode=block
+  Strict-Transport-Security: max-age=63072000
+  Referrer-Policy: same-origin

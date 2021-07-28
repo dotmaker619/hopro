@@ -1,0 +1,31 @@
+// // Resetting bulma variables
+// $body-size: 62.5%;
+
+// $size-1: 4.8rem !default;
+// $size-2: 4rem !default;
+// $size-3: 3.2rem !default;
+// $size-4: 2.4rem !default;
+// $size-5: 2rem !default;
+// $size-6: 1.6rem !default;
+// $size-7: 1.2rem !default;
+// $primary: $primary;
+
+html {
+  font-size: $body-size;
+}
+//Importing bulma file to apply the changes
+@import "partials/font-config";
+// @import "partials/media-queries";
+@import "partials/sh-helpers";
+// @import "partials/theme-colors";
+// @import "partials/mixin";
+@import "partials/sh-tabs";
+@import "partials/sh-buttons";
+@import "partials/sh-cards";
+@import "partials/sh-layouts";
+@import "partials/sh-tags";
+@import "partials/sh-form";
+@import "partials/typography-helpers";
+@import "partials/sh-theme-helpers";
+@import "partials/sh-details-popups";
+@import "partials/buefy-modifications";

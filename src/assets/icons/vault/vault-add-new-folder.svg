@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="27" height="24.999" viewBox="0 0 27 24.999">
+    <defs>
+        <style>
+            .cls-2{fill:#8e97ba}
+        </style>
+    </defs>
+    <g id="new-folder" transform="translate(-409 -248)">
+        <g id="folder" transform="translate(409 250.4)">
+            <path id="Path_1989" d="M128.54 140.1h-10.8l-2.4-3.349h-6c-1.324.006-2.4 1.5-2.4 3.349v6.7h24v-3.35c-.004-1.85-1.076-3.35-2.4-3.35z" class="cls-2" data-name="Path 1989" transform="translate(-106.94 -136.75)"/>
+            <path id="Path_1990" fill="#b6bdd9" d="M128.54 166.56h-19.2a2.342 2.342 0 0 0-2.4 2.264v11.322a2.342 2.342 0 0 0 2.4 2.264h19.2a2.342 2.342 0 0 0 2.4-2.264v-11.321a2.342 2.342 0 0 0-2.4-2.265z" data-name="Path 1990" transform="translate(-106.94 -163.211)"/>
+            <g id="Group_2424" data-name="Group 2424" transform="translate(-1393 -168.4)">
+                <circle id="Ellipse_425" cx="8" cy="8" r="8" fill="#8e97ba" data-name="Ellipse 425" opacity="0.1" transform="translate(1404 175)"/>
+                <circle id="Ellipse_424" cx="7" cy="7" r="7" fill="#fff" data-name="Ellipse 424" transform="translate(1405 176)"/>
+                <path id="Path_1185" d="M17.333 13.333h-2.666v-2.666a.667.667 0 1 0-1.333 0v2.667h-2.667a.667.667 0 1 0 0 1.333h2.667v2.667a.667.667 0 0 0 1.333 0v-2.667h2.667a.667.667 0 1 0 0-1.333z" class="cls-2" data-name="Path 1185" transform="translate(1398 169)"/>
+            </g>
+        </g>
+    </g>
+</svg>

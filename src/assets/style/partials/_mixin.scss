@@ -1,0 +1,9 @@
+@mixin box-shadow {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.05);
+}
+
+@mixin box-shadow--hover {
+  :hover {
+    box-shadow: 0 3px 6px 0 rgba(92, 126, 247, 0.3);
+  }
+}

@@ -1,0 +1,63 @@
+{
+    "show": {
+        "theme": "light",
+        "position": "topCenter",
+        "progressBarColor": "rgb(0, 255, 184)",
+        "icon": "check_circle_outline",
+        "close": false
+    },
+    "question": {
+        "close": false,
+        "id": "question",
+        "zindex": 9999,
+        "layout": 1,
+        "messageSize": "16",
+        "titleSize": "20",
+        "titleLineHeight": "25",
+        "messageLineHeight": "25"
+    },
+    "appError": {
+        "theme": "dark",
+        "icon": "fas fa-times-circle",
+        "iconColor": "#d43e32",
+        "position": "topCenter",
+        "progressBar": true,
+        "progressBarColor": "#d43e32",
+        "animateInside": true,
+        "timeout": "1500",
+        "backgroundColor": "#334258",
+        "close": true
+    },
+    "appSuccess": {
+        "theme": "dark",
+        "icon": "fas fa-check-circle",
+        "iconColor": "#32CD32",
+        "position": "topCenter",
+        "progressBar": true,
+        "progressBarColor": "#32CD32",
+        "animateInside": true,
+        "timeout": "1500",
+        "backgroundColor": "#334258"
+    },
+    "appWarning": {
+        "theme": "dark",
+        "icon": "fas fa-exclamation-circle",
+        "iconColor": "#ffae42",
+        "position": "topCenter",
+        "progressBar": true,
+        "progressBarColor": "#ffae42",
+        "animateInside": true,
+        "timeout": "1500",
+        "backgroundColor": "#334258"
+    },
+    "updateSuccess": {
+        "theme": "light",
+        "position": "topCenter",
+        "progressBarColor": "#4BB543",
+        "icon": "fas fa-check-circle",
+        "iconColor": "#4BB543",
+        "close": false,
+        "timeout": "1000",
+        "backgroundColor": "#fafafa"
+    }
+}

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 42 42">
+    <defs>
+        <filter id="prefix__Rectangle_903" width="42" height="42" x="0" y="0" filterUnits="userSpaceOnUse">
+            <feOffset dy="1"/>
+            <feGaussianBlur result="blur" stdDeviation="2"/>
+            <feFlood flood-color="#2585d3" flood-opacity=".2"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g id="prefix__owner" transform="translate(-241.818 -235)">
+        <g transform="translate(241.82 235)">
+            <g id="prefix__Rectangle_903-2" data-name="Rectangle 903" transform="translate(6 5)" style="stroke:#2585d3;opacity:0;fill:#fff">
+                <rect width="30" height="30" rx="6" style="stroke:none"/>
+                <rect width="29" height="29" x=".5" y=".5" rx="5.5" style="fill:none"/>
+            </g>
+        </g>
+        <g id="prefix__Group_1551" data-name="Group 1551" transform="translate(255 246)">
+            <path id="prefix__Path_1983" d="M27.448 34.71l-3.771-2.025a5.7 5.7 0 0 0 1.8-4.34v-2.43c0-1.62-2.215-3.414-4.46-3.414s-4.52 1.794-4.52 3.414v2.43a5.925 5.925 0 0 0 1.886 4.311l-3.861 2.025s-1.018.434-1.018.984v1.475a.993.993 0 0 0 1.018.984h12.956a.993.993 0 0 0 1.022-.984v-1.476c-.034-.549-1.052-.954-1.052-.954zm-.18 2.257H14.7v-1.042a1.6 1.6 0 0 1 .3-.174c.03 0 .06-.029.09-.029l3.858-2.022a1.113 1.113 0 0 0 .629-.926 1.16 1.16 0 0 0-.449-1.013 4.775 4.775 0 0 1-1.437-3.414v-2.43c0-.839 1.616-2.257 3.322-2.257 1.736 0 3.263 1.418 3.263 2.257v2.43a4.677 4.677 0 0 1-1.317 3.414 1.1 1.1 0 0 0-.449 1.013 1.2 1.2 0 0 0 .629.926l3.771 2.025c.03.029.09.029.12.058a.793.793 0 0 1 .269.145v1.042z" data-name="Path 1983" transform="translate(-13.5 -22.5)" style="stroke-linecap:round;stroke-width:.3px;fill:#747891;stroke:#747891"/>
+            <ellipse id="prefix__Ellipse_391" cx="5.238" cy="5.154" data-name="Ellipse 391" rx="5.238" ry="5.154" transform="translate(5.888 7.693)" style="fill:#fff"/>
+            <path id="prefix__Path_1987" d="M16.469 12.893h-2.352v-2.314a.588.588 0 0 0-1.176 0v2.315h-2.353a.579.579 0 1 0 0 1.157h2.352v2.315a.588.588 0 0 0 1.176 0v-2.315h2.352a.579.579 0 1 0 0-1.157z" data-name="Path 1987" transform="translate(-2.061 -.452)" style="stroke-width:.2px;fill:#747891;stroke:#747891"/>
+        </g>
+    </g>
+</svg>

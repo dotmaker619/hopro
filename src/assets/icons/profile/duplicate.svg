@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="duplicate" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-1{fill:#2585d3;fill-rule:evenodd}
+        </style>
+    </defs>
+    <g id="Group_1174" data-name="Group 1174">
+        <path id="Path_1906" d="M16.773 8.182h11.045v13.091h-2.182v2.182h2.182A2.183 2.183 0 0 0 30 21.273V8.182A2.183 2.183 0 0 0 27.818 6H14.727a2.183 2.183 0 0 0-2.182 2.182v2.182h2.182V8.182zM6 14.73a2.183 2.183 0 0 1 2.184-2.184H21.27a2.183 2.183 0 0 1 2.184 2.184v13.086A2.183 2.183 0 0 1 21.27 30H8.184A2.183 2.183 0 0 1 6 27.816V14.73zm2.182 0h13.091v13.088H8.182V14.727z" class="cls-1" data-name="Path 1906" transform="translate(-6 -6)"/>
+    </g>
+</svg>

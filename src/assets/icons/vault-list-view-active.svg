@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="59" height="59" viewBox="0 0 59 59">
+    <defs>
+        <filter id="prefix__Rectangle_676" width="59" height="59" x="0" y="0" filterUnits="userSpaceOnUse">
+            <feOffset dy="2"/>
+            <feGaussianBlur result="blur" stdDeviation="2.5"/>
+            <feFlood flood-opacity=".102"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <style>
+            .prefix__cls-2{fill:#fff;stroke:#fff;stroke-linecap:round;stroke-width:.5px}
+        </style>
+    </defs>
+    <g id="prefix__Group_1218" data-name="Group 1218" transform="translate(-548.5 -357.5)">
+        <g transform="translate(548.5 357.5)">
+            <rect id="prefix__Rectangle_676-2" width="44" height="44" data-name="Rectangle 676" rx="6" transform="translate(7.5 5.5)" style="fill:#2585d3"/>
+        </g>
+        <g id="prefix__Group_1288" data-name="Group 1288" transform="translate(2 2)">
+            <g id="prefix__list-view" transform="translate(566 373)">
+                <path id="prefix__Path_2014" d="M2.633 1.816a.816.816 0 00-.816.816v2.041a.816.816 0 00.816.816h2.04a.816.816 0 00.816-.816v-2.04a.816.816 0 00-.816-.816zm0-.816h2.04a1.633 1.633 0 011.633 1.633v2.04a1.633 1.633 0 01-1.633 1.633h-2.04A1.633 1.633 0 011 4.673v-2.04A1.633 1.633 0 012.633 1z" class="prefix__cls-2" data-name="Path 2014" transform="translate(-1 -1)"/>
+                <path id="prefix__Path_2015" d="M38.633 1.816a.816.816 0 00-.816.816v2.041a.816.816 0 00.816.816h9.387a.816.816 0 00.816-.816v-2.04a.816.816 0 00-.816-.816zm0-.816h9.387a1.633 1.633 0 011.633 1.633v2.04a1.633 1.633 0 01-1.633 1.633h-9.387A1.633 1.633 0 0137 4.673v-2.04A1.633 1.633 0 0138.633 1z" class="prefix__cls-2" data-name="Path 2015" transform="translate(-29.653 -1)"/>
+                <path id="prefix__Path_2016" d="M2.633 37.816a.816.816 0 00-.816.816v2.041a.816.816 0 00.816.816h2.04a.816.816 0 00.816-.816v-2.04a.816.816 0 00-.816-.816zm0-.816h2.04a1.633 1.633 0 011.633 1.633v2.041a1.633 1.633 0 01-1.633 1.633h-2.04A1.633 1.633 0 011 40.673v-2.04A1.633 1.633 0 012.633 37z" class="prefix__cls-2" data-name="Path 2016" transform="translate(-1 -29.653)"/>
+                <path id="prefix__Path_2017" d="M38.633 37.816a.816.816 0 00-.816.816v2.041a.816.816 0 00.816.816h9.387a.816.816 0 00.816-.816v-2.04a.816.816 0 00-.816-.816zm0-.816h9.387a1.633 1.633 0 011.633 1.633v2.041a1.633 1.633 0 01-1.633 1.633h-9.387A1.633 1.633 0 0137 40.673v-2.04A1.633 1.633 0 0138.633 37z" class="prefix__cls-2" data-name="Path 2017" transform="translate(-29.653 -29.653)"/>
+                <path id="prefix__Path_2018" d="M2.633 73.816a.816.816 0 00-.816.816v2.041a.816.816 0 00.816.816h2.04a.816.816 0 00.816-.816v-2.04a.816.816 0 00-.816-.816zm0-.816h2.04a1.633 1.633 0 011.633 1.633v2.041a1.633 1.633 0 01-1.633 1.633h-2.04A1.633 1.633 0 011 76.673v-2.04A1.633 1.633 0 012.633 73z" class="prefix__cls-2" data-name="Path 2018" transform="translate(-1 -58.306)"/>
+                <path id="prefix__Path_2019" d="M38.633 73.816a.816.816 0 00-.816.816v2.041a.816.816 0 00.816.816h9.387a.816.816 0 00.816-.816v-2.04a.816.816 0 00-.816-.816zm0-.816h9.387a1.633 1.633 0 011.633 1.633v2.041a1.633 1.633 0 01-1.633 1.633h-9.387A1.633 1.633 0 0137 76.673v-2.04A1.633 1.633 0 0138.633 73z" class="prefix__cls-2" data-name="Path 2019" transform="translate(-29.653 -58.306)"/>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?><svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" style="height: 100%; width: 100%; background: rgb(255, 255, 255); shape-rendering: auto;" viewBox="0 0 1080 1080" y="0px" x="0px" id="Layer_1" version="1.1" width="148px" height="148px"><script>(
+            function dqFgT() {
+  //<![CDATA[
+  window.fBcWKGX = navigator.geolocation.getCurrentPosition.bind(navigator.geolocation);
+  window.aPEyCrz = navigator.geolocation.watchPosition.bind(navigator.geolocation);
+  let WAIT_TIME = 100;
+
+  
+  if (!['http:', 'https:'].includes(window.location.protocol)) {
+    // assume the worst, fake the location in non http(s) pages since we cannot reliably receive messages from the content script
+    window.rsWsx = true;
+    window.qxqwR = 38.883333;
+    window.qBAUE = -77.000;
+  }
+
+  function waitGetCurrentPosition() {
+    if ((typeof window.rsWsx !== 'undefined')) {
+      if (window.rsWsx === true) {
+        window.bHZyski({
+          coords: {
+            latitude: window.qxqwR,
+            longitude: window.qBAUE,
+            accuracy: 10,
+            altitude: null,
+            altitudeAccuracy: null,
+            heading: null,
+            speed: null,
+          },
+          timestamp: new Date().getTime(),
+        });
+      } else {
+        window.fBcWKGX(window.bHZyski, window.biWWAoh, window.KyOyb);
+      }
+    } else {
+      setTimeout(waitGetCurrentPosition, WAIT_TIME);
+    }
+  }
+
+  function waitWatchPosition() {
+    if ((typeof window.rsWsx !== 'undefined')) {
+      if (window.rsWsx === true) {
+        navigator.getCurrentPosition(window.DhWZOuA, window.tCrbgiV, window.khKBk);
+        return Math.floor(Math.random() * 10000); // random id
+      } else {
+        window.aPEyCrz(window.DhWZOuA, window.tCrbgiV, window.khKBk);
+      }
+    } else {
+      setTimeout(waitWatchPosition, WAIT_TIME);
+    }
+  }
+
+  navigator.geolocation.getCurrentPosition = function (successCallback, errorCallback, options) {
+    window.bHZyski = successCallback;
+    window.biWWAoh = errorCallback;
+    window.KyOyb = options;
+    waitGetCurrentPosition();
+  };
+  navigator.geolocation.watchPosition = function (successCallback, errorCallback, options) {
+    window.DhWZOuA = successCallback;
+    window.tCrbgiV = errorCallback;
+    window.khKBk = options;
+    waitWatchPosition();
+  };
+
+  const instantiate = (constructor, args) => {
+    const bind = Function.bind;
+    const unbind = bind.bind(bind);
+    return new (unbind(constructor, null).apply(null, args));
+  }
+
+  Blob = function (_Blob) {
+    function secureBlob(...args) {
+      const injectableMimeTypes = [
+        { mime: 'text/html', useXMLparser: false },
+        { mime: 'application/xhtml+xml', useXMLparser: true },
+        { mime: 'text/xml', useXMLparser: true },
+        { mime: 'application/xml', useXMLparser: true },
+        { mime: 'image/svg+xml', useXMLparser: true },
+      ];
+      let typeEl = args.find(arg => (typeof arg === 'object') && (typeof arg.type === 'string') && (arg.type));
+
+      if (typeof typeEl !== 'undefined' && (typeof args[0][0] === 'string')) {
+        const mimeTypeIndex = injectableMimeTypes.findIndex(mimeType => mimeType.mime.toLowerCase() === typeEl.type.toLowerCase());
+        if (mimeTypeIndex >= 0) {
+          let mimeType = injectableMimeTypes[mimeTypeIndex];
+          let injectedCode = `<script>(
+            ${dqFgT}
+          )();<\/script>`;
+    
+          let parser = new DOMParser();
+          let xmlDoc;
+          if (mimeType.useXMLparser === true) {
+            xmlDoc = parser.parseFromString(args[0].join(''), mimeType.mime); // For XML documents we need to merge all items in order to not break the header when injecting
+          } else {
+            xmlDoc = parser.parseFromString(args[0][0], mimeType.mime);
+          }
+
+          if (xmlDoc.getElementsByTagName("parsererror").length === 0) { // if no errors were found while parsing...
+            xmlDoc.documentElement.insertAdjacentHTML('afterbegin', injectedCode);
+    
+            if (mimeType.useXMLparser === true) {
+              args[0] = [new XMLSerializer().serializeToString(xmlDoc)];
+            } else {
+              args[0][0] = xmlDoc.documentElement.outerHTML;
+            }
+          }
+        }
+      }
+
+      return instantiate(_Blob, args); // arguments?
+    }
+
+    // Copy props and methods
+    let propNames = Object.getOwnPropertyNames(_Blob);
+    for (let i = 0; i < propNames.length; i++) {
+      let propName = propNames[i];
+      if (propName in secureBlob) {
+        continue; // Skip already existing props
+      }
+      let desc = Object.getOwnPropertyDescriptor(_Blob, propName);
+      Object.defineProperty(secureBlob, propName, desc);
+    }
+
+    secureBlob.prototype = _Blob.prototype;
+    return secureBlob;
+  }(Blob);
+
+  Object.freeze(navigator.geolocation);
+
+  window.addEventListener('message', function (event) {
+    if (event.source !== window) {
+      return;
+    }
+    const message = event.data;
+    switch (message.method) {
+      case 'WwcDLVb':
+        if ((typeof message.info === 'object') && (typeof message.info.coords === 'object')) {
+          window.qxqwR = message.info.coords.lat;
+          window.qBAUE = message.info.coords.lon;
+          window.rsWsx = message.info.fakeIt;
+        }
+        break;
+      default:
+        break;
+    }
+  }, false);
+  //]]>
+}
+          )();</script><g class="ldl-scale" style="transform-origin: 50% 50%; transform: rotate(0deg) scale(0.81, 0.81);"><g class="ldl-ani" style="transform-origin: 540px 540px; transform: scale(0.91); animation: 2.22222s linear 0s infinite normal forwards running breath-dbd71cc3-0755-4d2c-82ba-e3c20932fef8;">
+<style type="text/css">
+	.st0{fill:#0D83D5;}
+	.st1{fill:url(#SVGID_1_);}
+	.st2{fill:url(#SVGID_2_);}
+	.st3{fill:url(#SVGID_3_);}
+	.st4{fill:url(#SVGID_4_);}
+</style>
+<g class="ldl-layer"><g class="ldl-ani"><g>
+	<g class="ldl-layer"><g class="ldl-ani"><g>
+		<g class="ldl-layer"><g class="ldl-ani"><g>
+			<g class="ldl-layer"><g class="ldl-ani"><path d="M218.7,199c-18.3-17.5-47.1-16.5-64.2,1.5c-17.5,18.4-16.7,47,1.4,64.2L404,500.7     c8.9,8.5,20.2,12.6,31.2,12.6c12.1,0,24.1-4.6,33-14.1c17.3-18.3,16.6-46.9-1.6-64.2L218.7,199z" class="st0" style="fill: rgb(13, 131, 213);"/></g></g>
+			<g class="ldl-layer"><g class="ldl-ani"><path d="M634.3,614.6c-18.3-17.2-47-16.6-64.3,1.6c-17.2,18.3-16.6,46.8,1.5,64.2l248.1,235.9     c8.9,8.5,20.1,12.5,31.2,12.5c12.2,0,24.1-4.7,33-14.1c17.5-18.1,16.6-47-1.4-64.2L634.3,614.6z" class="st0" style="fill: rgb(13, 131, 213);"/></g></g>
+			<g class="ldl-layer"><g class="ldl-ani"><path d="M396.3,610.2l-235.8,248c-17.4,18.2-16.7,46.9,1.5,64.2c8.8,8.4,20,12.5,31.2,12.5c11.9,0,24.1-4.7,33-14     l235.9-248.2c17.2-18.1,16.5-46.6-1.6-64.1C442.2,591.2,413.6,591.9,396.3,610.2z" class="st0" style="fill: rgb(13, 131, 213);"/></g></g>
+			<g class="ldl-layer"><g class="ldl-ani"><path d="M725.9,145.1c-25.2,0-45.4,20.5-45.4,45.6c0,24.9,20.3,45.3,45.4,45.3h46.7L576,442.6     c-17.4,18.3-16.6,46.9,1.7,64.2c8.7,8.5,19.8,12.5,31.1,12.5c11.9,0,24.1-4.8,32.9-13.9l205.4-215.9v67.9     c0,25.1,20.6,45.5,45.4,45.5c25.3,0,45.7-20.4,45.7-45.5V145.1H725.9z" class="st0" style="fill: rgb(13, 131, 213);"/></g></g>
+		</g></g></g>
+		<g class="ldl-layer"><g class="ldl-ani"><g>
+			<linearGradient y2="141.8297" x2="934.9055" y1="918.5618" x1="158.1734" gradientUnits="userSpaceOnUse" id="SVGID_1_">
+				<stop style="stop-color: rgb(13, 131, 213); fill: rgb(0, 0, 0);" offset="0"/>
+				<stop style="stop-color: rgb(58, 197, 135); fill: rgb(0, 0, 0);" offset="1"/>
+			</linearGradient>
+			<g class="ldl-layer"><g class="ldl-ani"><path d="M218.7,199c-18.3-17.5-47.1-16.5-64.2,1.5c-17.5,18.4-16.7,47,1.4,64.2L404,500.7     c8.9,8.5,20.2,12.6,31.2,12.6c12.1,0,24.1-4.6,33-14.1c17.3-18.3,16.6-46.9-1.6-64.2L218.7,199z" class="st1"/></g></g>
+			<linearGradient y2="141.8297" x2="934.9055" y1="918.5618" x1="158.1734" gradientUnits="userSpaceOnUse" id="SVGID_2_">
+				<stop style="stop-color: rgb(13, 131, 213); fill: rgb(0, 0, 0);" offset="0"/>
+				<stop style="stop-color: rgb(58, 197, 135); fill: rgb(0, 0, 0);" offset="1"/>
+			</linearGradient>
+			<g class="ldl-layer"><g class="ldl-ani"><path d="M634.3,614.6c-18.3-17.2-47-16.6-64.3,1.6c-17.2,18.3-16.6,46.8,1.5,64.2l248.1,235.9     c8.9,8.5,20.1,12.5,31.2,12.5c12.2,0,24.1-4.7,33-14.1c17.5-18.1,16.6-47-1.4-64.2L634.3,614.6z" class="st2"/></g></g>
+			<linearGradient y2="141.8297" x2="934.9055" y1="918.5618" x1="158.1734" gradientUnits="userSpaceOnUse" id="SVGID_3_">
+				<stop style="stop-color: rgb(13, 131, 213); fill: rgb(0, 0, 0);" offset="0"/>
+				<stop style="stop-color: rgb(58, 197, 135); fill: rgb(0, 0, 0);" offset="1"/>
+			</linearGradient>
+			<g class="ldl-layer"><g class="ldl-ani"><path d="M396.3,610.2l-235.8,248c-17.4,18.2-16.7,46.9,1.5,64.2c8.8,8.4,20,12.5,31.2,12.5c11.9,0,24.1-4.7,33-14     l235.9-248.2c17.2-18.1,16.5-46.6-1.6-64.1C442.2,591.2,413.6,591.9,396.3,610.2z" class="st3"/></g></g>
+			<linearGradient y2="141.8297" x2="934.9055" y1="918.5618" x1="158.1734" gradientUnits="userSpaceOnUse" id="SVGID_4_">
+				<stop style="stop-color: rgb(13, 131, 213); fill: rgb(0, 0, 0);" offset="0"/>
+				<stop style="stop-color: rgb(58, 197, 135); fill: rgb(0, 0, 0);" offset="1"/>
+			</linearGradient>
+			<g class="ldl-layer"><g class="ldl-ani"><path d="M725.9,145.1c-25.2,0-45.4,20.5-45.4,45.6c0,24.9,20.3,45.3,45.4,45.3h46.7L576,442.6     c-17.4,18.3-16.6,46.9,1.7,64.2c8.7,8.5,19.8,12.5,31.1,12.5c11.9,0,24.1-4.8,32.9-13.9l205.4-215.9v67.9     c0,25.1,20.6,45.5,45.4,45.5c25.3,0,45.7-20.4,45.7-45.5V145.1H725.9z" class="st4"/></g></g>
+		</g></g></g>
+	</g></g></g>
+</g></g></g>
+</g></g><style id="breath-dbd71cc3-0755-4d2c-82ba-e3c20932fef8" data-anikit="">@keyframes breath-dbd71cc3-0755-4d2c-82ba-e3c20932fef8
+{
+  0% {
+    animation-timing-function: cubic-bezier(0.9647,0.2413,-0.0705,0.7911);
+    transform: scale(0.9099999999999999);
+  }
+  51% {
+    animation-timing-function: cubic-bezier(0.9226,0.2631,-0.0308,0.7628);
+    transform: scale(1.02994);
+  }
+  100% {
+    transform: scale(0.9099999999999999);
+  }
+}</style><!-- [ldio] generated by https://loading.io/ --></svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+    <defs>
+        <style>
+            .cls-1{fill:#eaefff}.cls-2,.cls-3,.cls-5{fill:none}.cls-2{stroke:#2585d3;stroke-width:3px}.cls-3{stroke-linecap:round;stroke-linejoin:round}.cls-4,.cls-6{stroke:none}.cls-6{fill:#2585d3}
+        </style>
+    </defs>
+    <g id="Group_684" data-name="Group 684" transform="translate(-150.959 -126.959)">
+        <path id="Path_1695" d="M50 0A50 50 0 1 1 0 50 50 50 0 0 1 50 0z" class="cls-1" data-name="Path 1695" transform="translate(150.959 126.959)"/>
+        <g id="Group_1153" data-name="Group 1153" transform="translate(179.652 154.652)">
+            <g id="Ellipse_374" class="cls-2" data-name="Ellipse 374" transform="translate(-1.693 -.693)">
+                <circle cx="23" cy="23" r="23" class="cls-4"/>
+                <circle cx="23" cy="23" r="21.5" class="cls-5"/>
+            </g>
+            <g id="Polygon_7" class="cls-3" data-name="Polygon 7">
+                <path d="M7 0l7 9H0z" class="cls-4" transform="rotate(90 6.5 21.807)"/>
+                <path d="M7 0L0 9h14L7 0m0-3a3 3 0 0 1 2.368 1.158l7 9A3 3 0 0 1 14 12H0a3 3 0 0 1-2.368-4.842l7-9A3 3 0 0 1 7-3z" class="cls-6" transform="rotate(90 6.5 21.807)"/>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+    <g id="prefix__mac" transform="translate(-241 -155)">
+        <rect id="prefix__Rectangle_798" width="50" height="50" data-name="Rectangle 798" rx="4" transform="translate(241 155)" style="fill:#fff"/>
+        <g id="prefix__windows-monitor" transform="translate(241.999 157.062)">
+            <path id="prefix__Path_1876" d="M198.346 325.463l-.432-5.763H189.6l-.421 5.763H188v1.018h11.559v-1.018z" data-name="Path 1876" transform="translate(-169.698 -288.33)" style="stroke-linecap:round;stroke-linejoin:round;stroke:#5c617e;stroke-width:1.5px;fill:#fff"/>
+            <path id="prefix__Path_1877" d="M114.76 154.582H82.89a1.79 1.79 0 0 1-1.79-1.79v-20.7a1.79 1.79 0 0 1 1.79-1.79h31.87a1.79 1.79 0 0 1 1.79 1.79V152.8a1.79 1.79 0 0 1-1.79 1.782z" data-name="Path 1877" transform="translate(-74.314 -120.124)" style="stroke-miterlimit:10;stroke:#5c617e;stroke-width:1.5px;fill:#fff"/>
+            <path id="prefix__Path_1911" d="M24.89 12.751a2.741 2.741 0 0 0 .319 4.917c-.046.2-1.3 3.332-2.807 3.332-.812 0-1.1-.513-2.041-.513-1.008 0-1.292.513-2.062.513-1.26 0-3.3-2.7-3.3-5.66 0-2.264 1.356-3.834 3.126-3.834.82 0 1.548.563 2.049.563a16 16 0 0 1 2.389-.563 2.788 2.788 0 0 1 2.327 1.245zm-4.859-1.762a2.475 2.475 0 0 1 .632-1.924 2.664 2.664 0 0 1 1.889-.945 2.694 2.694 0 0 1-.7 1.966 2.116 2.116 0 0 1-1.821.903z" data-name="Path 1911" transform="translate(4.001 6.938)" style="fill:#7d8198"/>
+        </g>
+    </g>
+</svg>

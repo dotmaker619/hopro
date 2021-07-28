@@ -1,0 +1,143 @@
+.sh-form {
+  margin: 1rem 0;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px 0 rgba(50, 60, 70, 0.3);
+  background-color: #fafcff;
+
+  &__header {
+    box-shadow: 0 2px 1px 0 rgba(50, 60, 70, 0.05);
+    background-color: #ffffff;
+    padding: 2rem 3rem 2rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #171e48;
+    font-size: 2rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    &.is-small {
+      padding: 1rem 2rem;
+    }
+
+    &__title {
+      font-weight: 500;
+      text-transform: capitalize;
+    }
+
+    &__close {
+      cursor: pointer;
+    }
+  }
+
+  &__content {
+    padding: 4rem 12rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #171e48;
+
+    @include for-size(laptop) {
+      padding: 4rem 8rem;
+    }
+
+    @include for-size(tablet) {
+      padding: 4rem 6rem;
+    }
+
+    &__subtitle {
+      margin-top: 1rem;
+      margin-bottom: 0.6rem;
+      text-align: center;
+    }
+
+    &__organization {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      font-size: 2rem;
+
+      &__icon {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        font-weight: 600;
+        width: 3.25rem;
+        height: 3.25rem;
+        border-radius: 50%;
+        text-align: center;
+        align-items: center;
+        color: #feffff;
+        // background-color: $primary;
+        margin-right: 1rem;
+      }
+
+      &__name {
+        font-weight: 400;
+        color: #171e48;
+      }
+    }
+
+    &__input {
+      width: 100%;
+      border: 0;
+      color: #171e48;
+      font-size: 1.6rem;
+      line-height: 4rem;
+      border-bottom: 1px solid rgba(23, 30, 72, 0.1);
+      margin-top: 4rem;
+      background-color: #fafcff;
+
+      &:focus {
+        outline: none;
+      }
+
+      &::placeholder {
+        color: rgba(23, 30, 72, 0.4);
+      }
+
+      &--error {
+        border-color: rgba(255, 87, 34, 0.5);
+      }
+    }
+
+    &__advanced {
+      margin-top: 3rem;
+      margin-right: auto;
+      color: rgba(23, 30, 72, 0.7);
+      display: block;
+      cursor: pointer;
+
+      &__icon {
+        border: 1.3px solid rgba(23, 30, 72, 0.7);
+        border-radius: 50%;
+        display: inline-table;
+        text-align: center;
+        width: 2rem;
+        height: 2rem;
+        font-size: 1.25rem;
+      }
+
+      &__text {
+        font-weight: 500;
+        font-size: 1.5rem;
+        margin-left: 1rem;
+      }
+    }
+
+    &__button {
+      margin-top: 3rem;
+      border-radius: 6px;
+      background-color: $primary;
+      width: 100%;
+      color: #fff;
+      font-size: 1.6rem;
+      font-weight: 600;
+      text-align: center;
+      padding: 1.5rem 0;
+      cursor: pointer;
+      text-transform: capitalize;
+    }
+  }
+}

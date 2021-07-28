@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22.5" height="22.5" viewBox="0 0 22.5 22.5">
+    <defs>
+        <style>
+            .prefix__cls-2{fill:#5b607e}
+        </style>
+    </defs>
+    <g id="prefix__info" transform="translate(-3.75 -3.75)">
+        <g id="prefix__Group_1290" data-name="Group 1290" transform="translate(4 4)">
+            <path id="prefix__Path_2020" d="M15 26a11 11 0 1111-11 11 11 0 01-11 11zm0-20a9 9 0 109 9 8.994 8.994 0 00-9-9z" data-name="Path 2020" transform="translate(-4 -4)" style="stroke:#fff;stroke-linecap:round;stroke-width:.5px;fill:#5b607e"/>
+        </g>
+        <g id="prefix__Group_1293" data-name="Group 1293" transform="translate(13.946 10.401)">
+            <g id="prefix__Group_1291" data-name="Group 1291" transform="translate(.211 2.952)">
+                <path id="prefix__Path_2021" d="M44.843 46.537a.846.846 0 01-.843-.844v-4.85a.843.843 0 011.687 0v4.85a.846.846 0 01-.844.844z" class="prefix__cls-2" data-name="Path 2021" transform="translate(-44 -40)"/>
+            </g>
+            <g id="prefix__Group_1292" data-name="Group 1292">
+                <path id="prefix__Path_2022" d="M44.054 28.109a1.054 1.054 0 111.054-1.054 1.044 1.044 0 01-1.054 1.054z" class="prefix__cls-2" data-name="Path 2022" transform="translate(-43 -26)"/>
+            </g>
+        </g>
+    </g>
+</svg>

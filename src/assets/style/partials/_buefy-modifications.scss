@@ -1,0 +1,23 @@
+.dialog,
+.toast {
+  font-size: 1.6rem !important;
+}
+
+.b-skeleton > .b-skeleton-item {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(25%, #e7e7e7),
+    color-stop(50%, rgba(237, 237, 237, 0.5)),
+    color-stop(75%, #e7e7e7)
+  );
+  background: linear-gradient(
+    90deg,
+    #e7e7e7 25%,
+    rgba(237, 237, 237, 0.5) 50%,
+    #e7e7e7 75%
+  );
+  background-size: 400% 100%;
+  width: 100%;
+}

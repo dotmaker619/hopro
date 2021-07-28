@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+    <defs>
+        <style>
+            .cls-1{fill:#2585d3}.cls-2,.cls-4{fill:none}.cls-2{stroke:#fff}.cls-3{stroke:none}
+        </style>
+    </defs>
+    <g id="Group_970" data-name="Group 970" transform="translate(-548 -318)">
+        <g id="Group_1022" data-name="Group 1022">
+            <g id="Group_788" data-name="Group 788" transform="translate(538 313)">
+                <circle id="Ellipse_354" cx="15" cy="15" r="15" class="cls-1" data-name="Ellipse 354" transform="translate(10 5)"/>
+            </g>
+            <g id="Group_964" data-name="Group 964">
+                <g id="Rectangle_779" class="cls-2" data-name="Rectangle 779" transform="translate(557 327)">
+                    <rect width="4" height="13" class="cls-3" rx=".5"/>
+                    <path d="M.5.5h3v12h-3z" class="cls-4"/>
+                </g>
+                <g id="Rectangle_780" class="cls-2" data-name="Rectangle 780" transform="translate(562 327)">
+                    <rect width="8" height="4" class="cls-3" rx=".5"/>
+                    <path d="M.5.5h7v3h-7z" class="cls-4"/>
+                </g>
+                <g id="Rectangle_781" class="cls-2" data-name="Rectangle 781" transform="translate(562 332)">
+                    <rect width="8" height="8" class="cls-3" rx=".5"/>
+                    <path d="M.5.5h7v7h-7z" class="cls-4"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

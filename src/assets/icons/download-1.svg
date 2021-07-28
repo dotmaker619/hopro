@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 42 42">
+    <defs>
+        <filter id="prefix__Rectangle_840" width="42" height="42" x="0" y="0" filterUnits="userSpaceOnUse">
+            <feOffset dy="1"/>
+            <feGaussianBlur result="blur" stdDeviation="2"/>
+            <feFlood flood-color="#2585d3" flood-opacity=".2"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g id="prefix__download" transform="translate(-388 -233)">
+        <g transform="translate(388 233)">
+            <g id="prefix__Rectangle_840-2" data-name="Rectangle 840" transform="translate(6 5)" style="fill:#fff;stroke:#2585d3;opacity:0">
+                <rect width="30" height="30" rx="6" style="stroke:none"/>
+                <rect width="29" height="29" x=".5" y=".5" rx="5.5" style="fill:none"/>
+            </g>
+        </g>
+        <g id="prefix__download3" transform="translate(399 243)">
+            <path id="prefix__Union_38" d="M.761 14a.75.75 0 0 1-.752-.653.569.569 0 0 1-.009-.131V9.789a.746.746 0 0 1 .756-.731.772.772 0 0 1 .534.214.724.724 0 0 1 .222.517v2.744h12.982V9.789a.746.746 0 0 1 .756-.731.77.77 0 0 1 .534.214.759.759 0 0 1 .216.523v3.425a.745.745 0 0 1-.025.19.754.754 0 0 1-.741.589zm7.153-3.475c-.014 0-.029-.005-.043-.005a.824.824 0 0 1-.472-.236l-.019-.019L3.8 6.717a.844.844 0 0 1 0-1.194.862.862 0 0 1 1.2 0l2.15 2.133V-.157A.85.85 0 0 1 8.007-1a.869.869 0 0 1 .6.245.827.827 0 0 1 .247.6v7.81l2.15-2.133A.843.843 0 1 1 12.2 6.717l-3.582 3.548c0 .01-.014.014-.02.019a.835.835 0 0 1-.471.236c-.014 0-.029.005-.043.005a.573.573 0 0 1-.087 0z" data-name="Union 38" transform="translate(2 2)" style="fill:#747891;stroke:#747891;stroke-linecap:round;stroke-width:.3px"/>
+        </g>
+    </g>
+</svg>

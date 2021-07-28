@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="prefix__Icon---Building" width="14.369" height="14.369" viewBox="0 0 14.369 14.369">
+    <defs>
+        <style>
+            .prefix__cls-1{fill:#9599ac}
+        </style>
+    </defs>
+    <rect id="prefix__Rectangle-path" width="1.123" height="1.123" class="prefix__cls-1" rx=".4" transform="translate(2.357 10.664)"/>
+    <rect id="prefix__Rectangle-path-2" width="1.123" height="1.123" class="prefix__cls-1" data-name="Rectangle-path" rx=".4" transform="translate(2.357 8.307)"/>
+    <rect id="prefix__Rectangle-path-3" width="1.123" height="1.123" class="prefix__cls-1" data-name="Rectangle-path" rx=".3" transform="translate(2.357 5.95)"/>
+    <path id="prefix__Shape" d="M4.79 0v3.218L0 4.116v10.253h14.369V1.8zm0 13.171H1.2V5.11l3.59-.674zm8.382 0H5.987V1.443l7.184 1.347z" class="prefix__cls-1"/>
+    <path id="prefix__Path_2055" d="M322.4 262.415a1.158 1.158 0 0 1 1.233 1.06.285.285 0 0 0 .563 0 1.639 1.639 0 0 0-1.514-1.526v-.493a.285.285 0 0 0-.563 0v.493a1.613 1.613 0 0 0-1.509 1.647 1.71 1.71 0 0 0 1.79 1.423 1.071 1.071 0 1 1 .014 2.12h-.029a1.155 1.155 0 0 1-1.218-1.06.285.285 0 0 0-.563 0 1.639 1.639 0 0 0 1.514 1.525v.552a.285.285 0 0 0 .563 0v-.552a1.613 1.613 0 0 0 1.509-1.647 1.71 1.71 0 0 0-1.79-1.423 1.283 1.283 0 0 1-1.074-.528.933.933 0 0 1 0-1.064 1.282 1.282 0 0 1 1.074-.527zm0 0" data-name="Path 2055" transform="translate(-312.823 -257.024)" style="stroke:#9599ac;stroke-linecap:round;stroke-width:.7px;fill:#9599ac"/>
+</svg>

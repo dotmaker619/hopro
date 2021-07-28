@@ -1,0 +1,29 @@
+// Using min-width for mobile first approch
+
+@mixin for-size($size) {
+  @if $size == desktop {
+    @media (max-width: 1281px) {
+      @content;
+    }
+  } @else if $size == laptop {
+    @media (max-width: 1025px) {
+      @content;
+    }
+  } @else if $size == tablet {
+    @media (max-width: 961px) {
+      @content;
+    }
+  } @else if $size == portrait-tablets {
+    @media (max-width: 641px) {
+      @content;
+    }
+  } @else if $size == smartphones {
+    @media (max-width: 481px) {
+      @content;
+    }
+  } @else if $size == small-phones {
+    @media (max-width: 320px) {
+      @content;
+    }
+  }
+}

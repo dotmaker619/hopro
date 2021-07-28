@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56">
+    <defs>
+        <filter id="prefix__Rectangle_676" width="56" height="56" x="0" y="0" filterUnits="userSpaceOnUse">
+            <feOffset dy="1"/>
+            <feGaussianBlur result="blur" stdDeviation="2"/>
+            <feFlood flood-opacity=".102"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <style>
+            .prefix__cls-2{fill:#5b607e}
+        </style>
+    </defs>
+    <g id="prefix__Group_1289" data-name="Group 1289" transform="translate(-550 -358)">
+        <g transform="translate(550 358)">
+            <g id="prefix__Rectangle_676-2" data-name="Rectangle 676" transform="translate(6 5)" style="fill:#fff;stroke:rgba(23,30,72,.15)">
+                <rect width="44" height="44" rx="22" style="stroke:none"/>
+                <rect width="43" height="43" x=".5" y=".5" rx="21.5" style="fill:none"/>
+            </g>
+        </g>
+        <g id="prefix__info" transform="translate(564 371)">
+            <g id="prefix__Group_1290" data-name="Group 1290" transform="translate(4 4)">
+                <path id="prefix__Path_2020" d="M14 24a10 10 0 1110-10 10 10 0 01-10 10zm0-18.182A8.182 8.182 0 1022.182 14 8.177 8.177 0 0014 5.818z" class="prefix__cls-2" data-name="Path 2020" transform="translate(-4 -4)"/>
+            </g>
+            <g id="prefix__Group_1293" data-name="Group 1293" transform="translate(12.996 9.609)">
+                <g id="prefix__Group_1291" data-name="Group 1291" transform="translate(.201 2.811)">
+                    <path id="prefix__Path_2021" d="M44.8 46.225a.806.806 0 01-.8-.8V40.8a.8.8 0 011.606 0v4.619a.806.806 0 01-.806.806z" class="prefix__cls-2" data-name="Path 2021" transform="translate(-44 -40)"/>
+                </g>
+                <g id="prefix__Group_1292" data-name="Group 1292">
+                    <ellipse id="prefix__Ellipse_413" cx="1" cy=".5" class="prefix__cls-2" data-name="Ellipse 413" rx="1" ry=".5" transform="translate(.004 .418)"/>
+                    <path id="prefix__Path_2022" d="M44 28.008a1 1 0 111-1 .994.994 0 01-1 1zm0-1.608a.6.6 0 10.6.6.592.592 0 00-.6-.6z" class="prefix__cls-2" data-name="Path 2022" transform="translate(-43 -26)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,182 @@
+.sh-button {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 1.25rem 3rem;
+  text-align: center;
+  white-space: nowrap;
+  // margin-bottom: 1rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.6rem;
+  box-shadow: 0 2px 5px 0 rgba(92, 126, 247, 0.2);
+  font-weight: 500;
+  line-height: 1.21;
+  letter-spacing: normal;
+  background-color: $primary;
+  color: $white;
+
+  &--create::before {
+    content: "\f067";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 1.2rem;
+    position: relative;
+    right: 0.5rem;
+  }
+
+  &--download::before {
+    content: "\f019";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 1.2rem;
+    position: relative;
+    right: 0.5rem;
+  }
+
+  &--inverted {
+    background-color: $white;
+    border: 1px solid $primary;
+    color: $primary;
+  }
+
+  &--small {
+    padding: 1rem 2rem;
+  }
+
+  &--disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  &--delete {
+    padding: 1.2rem 1rem;
+    background-color: $white;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+    border: none;
+    border-radius: 0.6rem;
+    cursor: pointer;
+  }
+}
+
+.sh-download-button {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 100%;
+  border: 2px solid $primary;
+  background: $white;
+  box-shadow: 0 2px 5px 0 rgba(92, 126, 247, 0.2);
+  color: $primary;
+  cursor: pointer;
+
+  &::before {
+    content: "\f019";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 1.6rem;
+  }
+
+  &--active {
+    background-color: $primary;
+    color: $white;
+  }
+}
+
+.sh-buttons-group {
+  display: flex;
+  flex-wrap: wrap;
+
+  :not(:last-child) {
+    margin-right: 1rem;
+  }
+}
+
+//***************Processing buttons*******************//
+
+.processing {
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+
+  &--failed::before {
+    content: "\f071";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 1.6rem;
+    position: relative;
+    right: 0.5rem;
+    color: $red;
+  }
+
+  &--finished::before {
+    content: "\f058";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 1.6rem;
+    position: relative;
+    right: 0.5rem;
+    color: $green;
+  }
+
+  &--pending::before {
+    content: "\f110";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 1.6rem;
+    position: relative;
+    right: 0.5rem;
+    color: $yellow;
+  }
+
+  &--inprogress::before {
+    content: "\f058";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 1.6rem;
+    position: relative;
+    right: 0.5rem;
+    color: $blue;
+  }
+
+  &--start {
+    border: 2px solid $primary;
+    padding: 0.2rem 1rem;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 0.5rem;
+    color: $primary !important;
+    opacity: 0.7;
+
+    &::before {
+      content: "\f04b";
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      font-size: 1.6rem;
+      position: relative;
+      right: 0.5rem;
+      color: $primary;
+    }
+  }
+
+  &.is-start {
+    width: 83px;
+    height: 36px;
+    border-radius: 6px;
+    border: solid 1.5px $primary;
+    background-color: #ffffff;
+    padding: 0.2rem 1rem;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 0.5rem;
+
+    font-family: Barlow-Medium;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.19;
+    letter-spacing: normal;
+    text-align: left;
+    color: $primary;
+  }
+}

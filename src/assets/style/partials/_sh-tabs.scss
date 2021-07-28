@@ -1,0 +1,108 @@
+.sh-tabs {
+  margin-bottom: 0;
+
+  ul {
+    display: flex;
+    position: relative;
+    border-bottom: 1px solid #ddd;
+  }
+
+  li {
+    margin-right: 0.5rem;
+
+    a {
+      text-transform: capitalize;
+      text-align: center;
+      display: block;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-bottom: 1.6rem;
+      font-size: 1.8rem;
+      font-weight: 500;
+      line-height: 2.2rem;
+      text-align: left;
+      opacity: 0.4;
+      color: $low-priority;
+      margin-bottom: 3px;
+      font-family: Barlow-Medium;
+
+      &:hover {
+        opacity: 1;
+        border-bottom: solid 3px $primary;
+        margin-bottom: 0;
+      }
+
+      &.is-active {
+        opacity: 1;
+        border-bottom: solid 3px $primary;
+        margin-bottom: 0;
+      }
+
+      span {
+        border-radius: 100px;
+        background-color: $primary;
+        margin-left: 1rem;
+        display: inline-block;
+        height: 2.2rem;
+        width: 2.2rem;
+        font-family: Barlow-SemiBold;
+        font-size: 12px;
+        font-weight: 600;
+        text-align: center;
+        color: $white;
+        line-height: 2.3rem;
+      }
+    }
+  }
+
+  &__right {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-right: 0;
+
+    a {
+      text-transform: capitalize;
+      text-align: center;
+      display: block;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-bottom: 1.6rem;
+      line-height: 1.22;
+      text-align: left;
+      opacity: 0.4;
+      color: $low-priority;
+      margin-bottom: 3px;
+
+      &:hover {
+        opacity: 1;
+        border-bottom: solid 3px $primary;
+        margin-bottom: 0;
+      }
+
+      &.is-active {
+        opacity: 1;
+        border-bottom: solid 3px $primary;
+        margin-bottom: 0;
+      }
+
+      span {
+        border-radius: 100px;
+        background-color: $primary;
+        margin-left: 1rem;
+        display: inline-block;
+        height: 2.2rem;
+        width: 2.2rem;
+        font-size: 1.4rem;
+        text-align: center;
+        color: $white;
+        line-height: 2rem;
+      }
+    }
+  }
+
+  &__view {
+    margin-top: 2rem;
+    overflow: hidden;
+  }
+}

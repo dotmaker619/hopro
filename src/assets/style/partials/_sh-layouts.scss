@@ -1,0 +1,73 @@
+.router {
+  &-user-management-top-section,
+  &-project-management-top-section {
+    background-color: $primary-background;
+  }
+
+  &-therm,
+  &-admin {
+    padding: 20px 22px;
+    padding-top: 0;
+    min-height: 60vh;
+  }
+  &-project-management-main,
+  &-user-management-main {
+    padding-top: 20px;
+  }
+}
+.router-asset-details,
+.router-container-details,
+.router-group-details {
+  padding-top: 20px;
+  overflow: hidden;
+}
+
+.sh-metrics {
+  padding-bottom: 5rem;
+}
+
+.sh-column-max-5 {
+  max-width: 5rem;
+  overflow: hidden;
+}
+
+.sh-column-max-10 {
+  max-width: 10rem;
+  overflow: hidden;
+}
+
+.sh-column-max-15 {
+  max-width: 15rem;
+  overflow: hidden;
+}
+
+.sh-column-max-20 {
+  max-width: 20rem;
+  overflow: hidden;
+}
+
+.sh-column-max-25 {
+  max-width: 25rem;
+  overflow: hidden;
+}
+
+.sh-column-max-30 {
+  max-width: 30rem;
+  overflow: hidden;
+}
+
+.list-top-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  // margin: 20px 0;
+  margin-bottom: 20px;
+
+  &--search {
+    display: flex;
+  }
+
+  &--create {
+    justify-content: flex-end;
+  }
+}
